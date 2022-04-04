@@ -126,6 +126,7 @@ p {
     color: var(--white-color);
     font-size: 0.9375rem;
     font-weight: 600;
+    border-radius: 0.625rem;
     text-transform: capitalize;
     box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
     -webkit-transition: all .4s ease-out 0s;
@@ -142,6 +143,7 @@ p {
     color: var(--text-color);
     font-size: 0.9375rem;
     font-weight: 600;
+    border-radius: 0.625rem;
     text-transform: capitalize;
     box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
     -webkit-transition: all .4s ease-out 0s;
@@ -178,7 +180,7 @@ p {
 
 /*
  ==========================================
-            header design
+            header section design
 ===========================================
 */
 .navigation-wrap {
@@ -216,18 +218,18 @@ p {
 }
 
 /* change navigatyion style on scroll */
-.navigation-wrap.scroll-on{
+.scroll-on{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.9);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
     transition: all .15s ease-in-out 0s;
 }
 /* 
 =========================================
-        top banner design
+        top banner section  design
 ========================================= 
 */
 .top-banner{
@@ -238,7 +240,7 @@ p {
 }
 /*
  ========================================
-        counter design 
+        counter section  design 
 =========================================
  */
 .counter-section{
@@ -250,6 +252,72 @@ p {
     text-transform: uppercase;
 }
 
+/*
+ ========================================
+        about section design 
+=========================================
+ */
+ .about-section{
+     background: var(--white-color);
+ }
+ .about-section .card,
+ .about-section .card img{
+     border-radius: 0.625rem;
+ }
+ .about-section .text-sec{
+     padding: 2rem;
+ }
+
+/*
+ ========================================
+        food type section design 
+=========================================
+ */
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.food-type ul li::before{
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+.story-section{
+    width: 100%;
+    height: 28.125rem;
+    background: url('../images/bg/bg-2.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+.story-section h2{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+/*
+ ========================================
+        counter design 
+=========================================
+ */
 
 
 
@@ -267,3 +335,22 @@ p {
 
 
 
+ /*
+ ========================================
+        counter design 
+=========================================
+ */
+
+
+
+
+
+
+
+
+
+ /*
+ ========================================
+        counter design 
+=========================================
+ */
