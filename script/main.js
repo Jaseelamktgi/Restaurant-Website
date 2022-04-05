@@ -11,10 +11,10 @@ window.onscroll = function () {
 }
 
 //nav hide
-let navBar =document.querySelectorAll('.nav-link');
-let navcollapse=document.querySelector('.nav-collapse.collapse');
-navBar.forEach(function(a){
-    a.addEventListener("click",function(){
+let navBar = document.querySelectorAll('.nav-link');
+let navcollapse = document.querySelector('.nav-collapse.collapse');
+navBar.forEach(function (a) {
+    a.addEventListener("click", function () {
         navcollapse.classList.remove("show");
     })
 })

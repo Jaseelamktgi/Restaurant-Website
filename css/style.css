@@ -55,7 +55,7 @@ body {
 
 /* 
 ===========================================
-            custom scrollbsr
+            custom scrollbar
 ===========================================            
  */
 ::-webkit-scrollbar {
@@ -351,14 +351,46 @@ p {
         testimonial section design 
 =========================================
  */
+.testimonial-section{
+    background-color: var(--primary-color);
 
+}
+.testimonial-section h2{
+color: var(--white-color);
+}
+.testimonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    background-color: var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+.testimonial-section .carousel-caption img{
+max-width: 5rem;
+border-radius: 50%;
+padding: 0.1325rem;
+}
+.testimonial-section .carousel-item .carousel-caption p{
+font-size: 1.3125rem;
+line-height: 2.0625rem;
+padding: 0 11% 0.625rem;}
+.testimonial-section .carousel-indicators{
+    bottom: -2.1825rem;
 
+}
+.testimonial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
 
-
-
-
-
-
+.testimonial-section .carousel-indicators button.active{
+opacity: 1;
+}
 
 /*
  ========================================
@@ -366,7 +398,6 @@ p {
 =========================================
  */
 .faq h4 span {
-    color: var(--primary-color);
     font-size: 1.25rem;
     margin-right: 1.3125rem;
 }
@@ -411,18 +442,21 @@ p {
         Footer section  design 
 =========================================
  */
-.footer{
+.footer {
     background: var(--primary-color);
 }
-.footer .footer-link{
+
+.footer .footer-link {
     font-size: 1rem;
     color: var(--white-color);
     padding: 0 1.875rem;
 }
-.footer .footer-link:hover{
+
+.footer .footer-link:hover {
     color: var(--white-color) !important;
 }
-.footer a .fab{
+
+.footer a .fab {
     font-size: 1.5rem;
     color: var(--white-color);
     padding: 0 0.7rem;
